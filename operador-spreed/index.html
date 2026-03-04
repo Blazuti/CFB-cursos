@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operador spread</title>
+</head>
+<body onload="start()">
+    <div>teste numero 01</div>
+    <div>teste numero 02</div>
+    <div>teste numero 03</div>
+    
+    <script>
+        function start(){
+        let objs = [...document.getElementsByClassName("div")]
+        objs.forEach(element => {
+            element.innerHTML = "teste"
+        });
+        console.log(objs)}
+    </script>
+</body>
+</html>
