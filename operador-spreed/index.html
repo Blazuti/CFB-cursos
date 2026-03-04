@@ -6,17 +6,23 @@
     <title>Operador spread</title>
 </head>
 <body onload="start()">
-    <div>teste numero 01</div>
-    <div>teste numero 02</div>
-    <div>teste numero 03</div>
+    <div class="text">teste numero 01</div>
+    <div class="text">teste numero 02</div>
+    <div class="text">teste numero 03</div>
     
     <script>
         function start(){
-        let objs = [...document.getElementsByClassName("div")]
+       /*let objs = [...document.getElementsByTagName("div")]
         objs.forEach(element => {
-            element.innerHTML = "teste"
+            element.innerHTML = "mudando"
         });
-        console.log(objs)}
+        console.log(objs)}*/
+        let objs = [...document.getElementsByClassName("text")]
+        console.log(objs)
+        for(let i=0; objs.length > 0; i++){
+            objs.includes = "test"
+        }
+        }
     </script>
 </body>
 </html>
