@@ -10,8 +10,25 @@
     <div class="text">teste numero 02</div>
     <div class="text">teste numero 03</div>
     
-    <script>       
-             
+    <script>
+    function start(){       
+       let objs = document.getElementsByClassName("text")
+
+        /*for(let i=0; i < objs.length; i++){
+           console.log(i)}*/
+        //Éa = a for in, retorna o indice de cada elemento
+        for(n in objs){
+            console.log(objs[n].innerHTML="test")
+        }
+        
+        /*for (let i=0; i< objs.length; i++){
+        console.log(objs[i])}*/
+        //É = a for of, retorna o valor de cada indice(elemento)
+        for(n of objs){
+            console.log(n.innerHTML="test")
+        }
+        
+    }
         
     </script>
 </body>
