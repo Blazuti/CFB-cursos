@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operador spread</title>
 </head>
-<body onload="start()">
+<body>
     <form action="#">
         <label for="inum1">Numeros a serem somados</label>
         <input type="number" name="num1" id="inum1">
@@ -15,23 +15,25 @@
     </form>
     
     <script>
-    function start(){       
-       let ent = document.getElementById("inum1")
-       num = Number(ent.value)
-       const somar = document.querySelector("#soma")
-       const limpar = document.querySelector("#limpar")
-       let result = document.querySelector("#res")
-       somar.addEventListener("click", somou(num))/* {
-           num = Number(ent.value);
-           somou(num);
-       });*/
+    let num = document.querySelector("#inum1")
+    let envio = document.querySelector("#soma")
+    let result = document.querySelector("#res")
+    const limp = document.querySelector("#limpar")
+    envio.addEventListener('click', clicou)
+    limpar.addEventListener('click', limpou)
+    let c = 0
 
-       function somou(valores){
-        result.innerHTML = valores
-       }
+    function clicou(){ 
         
-        
+        c+=Number(num.value)
+        result.innerHTML = c
     }
+    function limpou(){
+        c = 0
+        result.innerHTML = 'Aguardando envio...'
+    }
+        
+    
     </script>
 </body>
 </html>
