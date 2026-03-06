@@ -7,30 +7,25 @@
 </head>
 <body>
     <form action="#">
-        <label for="inum1">Numeros a serem somados</label>
-        <input type="number" name="num1" id="inum1">
-        <input type="button" value="Somar" id="soma">
-        <input type="button" value="limpar" id="limpar">
+        <label for="inum">Numeros a serem somados</label>
+        <input type="number" name="num1" id="inum">
+        <input type="button" value="adicionar" id="adiciona">
+        <input type="button" value="somar" id="somar">
         <div id="res">Aguardando envio...</div>
     </form>
     
     <script>
-    let num = document.querySelector("#inum1")
-    let envio = document.querySelector("#soma")
+    let num = document.querySelector("#inum")
+    let adicionar = document.querySelector("#adiciona")
     let result = document.querySelector("#res")
-    const limp = document.querySelector("#limpar")
-    envio.addEventListener('click', clicou)
-    limpar.addEventListener('click', limpou)
-    let c = 0
-
-    function clicou(){ 
-        
-        c+=Number(num.value)
-        result.innerHTML = c
-    }
-    function limpou(){
-        c = 0
-        result.innerHTML = 'Aguardando envio...'
+    const som = document.querySelector("#somar")
+    let valores = []
+    adicionar.addEventListener('click', adic)
+    som.addEventListener('click', somou)
+    
+    
+    function adic(){
+       result.innerHTML = "valores"
     }
         
     
