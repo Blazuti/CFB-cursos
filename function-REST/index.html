@@ -16,17 +16,25 @@
     
     <script>
     let num = document.querySelector("#inum")
-    let adicionar = document.querySelector("#adiciona")
     let result = document.querySelector("#res")
-    const som = document.querySelector("#somar")
     let valores = []
-    adicionar.addEventListener('click', adic)
-    som.addEventListener('click', somou)
+    const adicionar = document.querySelector("#adiciona")
+    const somar = document.querySelector("#somar")
+
+    adicionar.addEventListener('click', () => {
+            valores.push(Number(num.value));
+            res.textContent = valores.join(', ');
+            num.value = '';
+            num.focus();
+        });
+
+        somar.addEventListener('click', () => {
+            const soma = valores.reduce((a,b)=>a+b,0);
+            res.textContent = soma;
+        });
     
     
-    function adic(){
-       result.innerHTML = "valores"
-    }
+    
         
     
     </script>
