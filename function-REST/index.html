@@ -20,19 +20,30 @@
     let valores = []
     const adicionar = document.querySelector("#adiciona")
     const somar = document.querySelector("#somar")
-
-    adicionar.addEventListener('click', () => {
-            valores.push(Number(num.value));
-            res.textContent = valores.join(', ');
-            num.value = '';
-            num.focus();
-        });
-
-        somar.addEventListener('click', () => {
-            const soma = valores.reduce((a,b)=>a+b,0);
-            res.textContent = soma;
-        });
     
+    // adicionar.addEventListener('click', adicionou)
+    // function adicionou(){
+    //     valores.push(Number(num.value))
+    //     result.innerHTML = valores.join(', ')
+    // }
+    //Função anonima para o mesmo caso a cima
+
+    adicionar.addEventListener('click', ()=>{
+        valores.push(Number(num.value))
+        result.textContent = valores.join(', ')
+        num.value=''
+        num.focus()
+    })
+    
+    somar.addEventListener('click', soma)
+    function soma(){
+        let c = 0
+        for(i of valores){
+            c+=i
+            result.textContent=c
+            num.focus()
+        }
+    }
     
     
         
