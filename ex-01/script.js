@@ -1,5 +1,5 @@
 const itens = [...document.querySelectorAll(".curso")]
-const caixa1 = [document.querySelector("#caixa1")]
+const caixa1 = document.querySelector("#caixa1")
 const caixa2 = document.querySelector("#caixa2")
 const btn_copiar = document.querySelector("#btn_copiar")
 const btn_retornar = document.querySelector("#btn_retornar")
@@ -22,10 +22,3 @@ btn_retornar.addEventListener('click', ()=>{
     })
 })
 
-/*caixa1.map((el, i)=>{
-    console.log(el)
-    console.log(el.children)
-   console.log([...el.children])
-   el = [...el.children]
-   el.children.innerHTML = 'test'
-})*/
