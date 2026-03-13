@@ -1,0 +1,407 @@
+.welcome-to-landify {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.welcome-to-landify .annotation-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--white);
+}
+
+.welcome-to-landify .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 64px 80px 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--neutral-900);
+}
+
+.welcome-to-landify .div {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.welcome-to-landify .logomark {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+.welcome-to-landify .navigation {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.welcome-to-landify .text-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--display-xs-medium-font-family);
+  font-weight: var(--display-xs-medium-font-weight);
+  color: var(--neutral-400);
+  font-size: var(--display-xs-medium-font-size);
+  letter-spacing: var(--display-xs-medium-letter-spacing);
+  line-height: var(--display-xs-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--display-xs-medium-font-style);
+}
+
+.welcome-to-landify .page-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--display-xs-medium-font-family);
+  font-weight: var(--display-xs-medium-font-weight);
+  color: var(--white);
+  font-size: var(--display-xs-medium-font-size);
+  letter-spacing: var(--display-xs-medium-letter-spacing);
+  line-height: var(--display-xs-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--display-xs-medium-font-style);
+}
+
+.welcome-to-landify .link {
+  color: var(--white);
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.welcome-to-landify .content {
+  display: flex;
+  gap: 128px;
+  padding: 96px 80px;
+  align-self: stretch;
+  width: 100%;
+  background-color: var(--neutral-900);
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.welcome-to-landify .container {
+  display: flex;
+  flex-direction: column;
+  width: 1024px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.welcome-to-landify .heading {
+  align-self: stretch;
+  font-family: var(--display-xl-semibold-font-family);
+  font-weight: var(--display-xl-semibold-font-weight);
+  color: var(--white);
+  font-size: var(--display-xl-semibold-font-size);
+  letter-spacing: var(--display-xl-semibold-letter-spacing);
+  line-height: var(--display-xl-semibold-line-height);
+  position: relative;
+  margin-top: -1.00px;
+  font-style: var(--display-xl-semibold-font-style);
+}
+
+.welcome-to-landify .description {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--body-xl-regular-font-family);
+  font-weight: var(--body-xl-regular-font-weight);
+  color: var(--neutral-300);
+  font-size: var(--body-xl-regular-font-size);
+  letter-spacing: var(--body-xl-regular-letter-spacing);
+  line-height: var(--body-xl-regular-line-height);
+  font-style: var(--body-xl-regular-font-style);
+}
+
+.welcome-to-landify .container-2 {
+  flex-direction: column;
+  gap: 128px;
+  padding: 96px 80px;
+  background-color: var(--white);
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.welcome-to-landify .section {
+  display: flex;
+  flex-direction: column;
+  width: 720px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.welcome-to-landify .heading-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--display-sm-semibold-font-family);
+  font-weight: var(--display-sm-semibold-font-weight);
+  color: var(--neutral-900);
+  font-size: var(--display-sm-semibold-font-size);
+  letter-spacing: var(--display-sm-semibold-letter-spacing);
+  line-height: var(--display-sm-semibold-line-height);
+  font-style: var(--display-sm-semibold-font-style);
+}
+
+.welcome-to-landify .paragraph {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--body-lg-regular-font-family);
+  font-weight: var(--body-lg-regular-font-weight);
+  color: var(--neutral-600);
+  font-size: var(--body-lg-regular-font-size);
+  letter-spacing: var(--body-lg-regular-letter-spacing);
+  line-height: var(--body-lg-regular-line-height);
+  font-style: var(--body-lg-regular-font-style);
+}
+
+.welcome-to-landify .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--primary-600);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.welcome-to-landify .divider {
+  position: relative;
+  width: 1px;
+  height: 20px;
+}
+
+.welcome-to-landify .section-2 {
+  display: flex;
+  flex-direction: column;
+  width: 720px;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px;
+  position: relative;
+  flex: 0 0 auto;
+  border: 4px solid;
+  border-color: var(--primary-600);
+}
+
+.welcome-to-landify .content-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.welcome-to-landify .links {
+  gap: 24px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.welcome-to-landify .preview {
+  position: relative;
+  width: 672px;
+  height: 400px;
+}
+
+.welcome-to-landify .links-2 {
+  gap: 8px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.welcome-to-landify .paragraph-2 {
+  position: relative;
+  align-self: stretch;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-lg-regular-font-family);
+  font-weight: var(--body-lg-regular-font-weight);
+  color: var(--neutral-600);
+  font-size: var(--body-lg-regular-font-size);
+  letter-spacing: var(--body-lg-regular-letter-spacing);
+  line-height: var(--body-lg-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-lg-regular-font-style);
+}
+
+.welcome-to-landify .preview-2 {
+  position: relative;
+  width: 672px;
+  height: 400px;
+  background-color: var(--neutral-900);
+}
+
+.welcome-to-landify .showcase {
+  left: 24px;
+  position: absolute;
+  top: 40px;
+  width: 300px;
+  height: 360px;
+}
+
+.welcome-to-landify .img {
+  left: 348px;
+  position: absolute;
+  top: 40px;
+  width: 300px;
+  height: 360px;
+}
+
+.welcome-to-landify .annotation-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  padding: 40px 80px 80px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--white);
+}
+
+.welcome-to-landify .line {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  margin-top: -1.00px;
+  object-fit: cover;
+}
+
+.welcome-to-landify .container-3 {
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.welcome-to-landify .content-3 {
+  display: inline-flex;
+  gap: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.welcome-to-landify .p {
+  width: fit-content;
+  font-family: var(--body-xl-medium-font-family);
+  font-weight: var(--body-xl-medium-font-weight);
+  color: var(--neutral-900);
+  font-size: var(--body-xl-medium-font-size);
+  letter-spacing: var(--body-xl-medium-letter-spacing);
+  line-height: var(--body-xl-medium-line-height);
+  white-space: nowrap;
+  position: relative;
+  margin-top: -1.00px;
+  font-style: var(--body-xl-medium-font-style);
+}
+
+.welcome-to-landify .link-2 {
+  color: var(--neutral-500);
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.welcome-to-landify .logo {
+  position: relative;
+  width: 128px;
+  height: 32px;
+}
+
+.welcome-to-landify .logomark-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.welcome-to-landify .landify {
+  position: absolute;
+  width: 66.79%;
+  height: 76.71%;
+  top: 23.29%;
+  left: 33.21%;
+}
+
+.welcome-to-landify .TM {
+  position: absolute;
+  width: 6.19%;
+  height: 85.00%;
+  top: 15.00%;
+  left: 93.81%;
+}
+
+.welcome-to-landify .copyright {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body-xl-regular-font-family);
+  font-weight: var(--body-xl-regular-font-weight);
+  color: var(--neutral-500);
+  font-size: var(--body-xl-regular-font-size);
+  letter-spacing: var(--body-xl-regular-letter-spacing);
+  line-height: var(--body-xl-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-xl-regular-font-style);
+}
